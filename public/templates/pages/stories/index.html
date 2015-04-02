@@ -1,0 +1,13 @@
+<div>
+  <h1>This is the board</h1>
+  <div id="sortable-container">
+    <div ng-repeat="board in boards">
+      <h2>{{board.name}}</h2>
+      <div ng-repeat="story in board.stories">
+        <div class="story">
+          <span class="story-em">As a</span> {{story.role}}, <span class="story-em">I want to</span> {{story.action}}, <span class="story-em">so that</span> {{story.benefit}}.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
