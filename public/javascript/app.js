@@ -1,1 +1,1 @@
-angular.module('TackingStory', ['ngRoute']);
+angular.module('TackingStory', ['ngRoute','monospaced.elastic']);

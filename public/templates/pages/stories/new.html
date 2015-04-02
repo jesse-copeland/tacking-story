@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="form-horizontal">
+    <div class="form-group">
+      <label for="storyType" class="col-sm-2 control-label">Story Type</label>
+      <select class="form-control col-sm-offset-2 col-sm-10" id="storyType" ng-model="type">
+        <option value="user">User</option>
+        <option value="non-user">Non-User</option>
+        <option value="spike">Spike</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="storyRole" class="col-sm-2 control-label">As A</label>
+      <input class="form-control col-sm-10" id="storyRole" type="text" ng-model="role">
+    </div>
+    <div class="form-group">
+      <label for="storyAction" class="col-sm-2 control-label">I want to</label>
+      <textarea msd-elastic class="form-control" id="storyAction" ng-model="action"></textarea>
+    </div>
+    <div class="form-group">
+      <label for="storyBenefit" class="col-sm-2 control-label">so that</label>
+      <textarea msd-elastic class="form-control" id="storyBenefit" ng-model="benefit"></textarea>
+    </div>
+    <div class="form-group">
+      <label for="storyAcceptance" class="col-sm-2 control-label">I will know I am done when</label>
+      <textarea msd-elastic class="form-control col-sm-10" id="storyAcceptance" ng-model="acceptance"></textarea>
+    </div>
+    <div class="form-group">
+      <label for="storyTitle" class="col-sm-2 control-label">Title</label>
+      <input class="form-control col-sm-10" id="storyTitle" type="text" ng-model="title">
+    </div>
+  </div>
+</div>
