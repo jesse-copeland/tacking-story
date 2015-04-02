@@ -1,13 +1,38 @@
-<div>
-  <h1>This is the board</h1>
-  <div id="sortable-container">
+<div class="board-wrapper container">
+  <div class="board row">
     <div ng-repeat="board in boards">
-      <h2>{{board.name}}</h2>
-      <div ng-repeat="story in board.stories">
-        <div class="story">
-          <span class="story-em">As a</span> {{story.role}}, <span class="story-em">I want to</span> {{story.action}}, <span class="story-em">so that</span> {{story.benefit}}.
-        </div>
-      </div>
+      <div class="col-sm-4">
+        <div class="stage">
+          <h2>{{board.name}}</h2>
+          <div class="drag-zone">
+            <div ng-repeat="story in board.stories">
+              <div class="flip-container card">
+                <div class="flipper">
+                  <div class="front">
+                    <div class="corner-ribbon bottom right flip-trigger">
+                      <i class="glyphicon glyphicon-retweet ribbon-icon"></i>
+                    </div>
+                    <i class="glyphicon glyphicon-pushpin pull-right drag-handle"></i>
+                    <h3 class="truncate">{{story.title}}</h3>
+                    <p>
+                      <span class="story-em">As a</span> {{story.role}}, <span class="story-em">I want to</span> {{story.action}}, <span class="story-em">so that</span> {{story.benefit}}
+                    </p>
+                  </div>
+                  <div class="back">
+                    <div class="corner-ribbon bottom left flip-trigger">
+                      <i class="glyphicon glyphicon-retweet ribbon-icon"></i>
+                    </div>
+                    <h3 class="truncate">{{story.title}}</h3>
+                    <p>
+                      <span class="story-em">I will know I am done when</span> {{story.acceptance}}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>    
+      </div>   
     </div>
   </div>
 </div>

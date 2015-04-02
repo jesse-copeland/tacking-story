@@ -8,7 +8,7 @@ angular.module('TackingStory')
           stories: [   
             {
               type: 'user',
-              title: '',
+              title: 'User see balances online',
               role: 'Registered Online Banking Customer',
               action: 'view a list of all my accounts',
               benefit: 'I can quickly see my current balances',
@@ -16,7 +16,7 @@ angular.module('TackingStory')
             },
             {
               type: 'user',
-              title: '',
+              title: 'Account holder overdrafts notification',
               role: 'Personal Checking Account Holder',
               action: 'be notified of checking overdrafts when viewing account page',
               benefit: 'I can transfer monies to avoid further penelties',
@@ -24,7 +24,7 @@ angular.module('TackingStory')
             },
             {
               type: 'user',
-              title: '',
+              title: 'MSR access to Users account details',
               role: 'Bank Member Service Rep',
               action: 'view a list of all accounts belonging to the member am servicing',
               benefit: 'view and edit account detail to resolve account issues',
@@ -32,7 +32,7 @@ angular.module('TackingStory')
             },
             {
               type: 'non-user',
-              title: '',
+              title: 'setup dev region',
               role: 'Developer',
               action: 'configure our assigned development region',
               benefit: 'we can begin developing User Stories in our backlog',
@@ -40,7 +40,7 @@ angular.module('TackingStory')
             },
             {
               type: 'non-user',
-              title: '',
+              title: 'Prepare test lab',
               role: 'Tester',
               action: 'prepare a test lab',
               benefit: 'we have representation of all device types and OSs we need to execute test on',
@@ -53,7 +53,7 @@ angular.module('TackingStory')
           stories: [
             {
               type: 'non-user',
-              title: '',
+              title: 'identify test frameworks',
               role: 'Tester',
               action: 'identify testing frameworks to install and configure',
               benefit: 'we have the right tools available to find all possible bugs',
@@ -61,7 +61,7 @@ angular.module('TackingStory')
             },
             {
               type: 'spike',
-              title: '',
+              title: 'Research security',
               role: 'Developer',
               action: 'research the latest security protocols',
               benefit: 'we feel confident we selected the best method for securing our customer\'s financial data',
@@ -69,7 +69,7 @@ angular.module('TackingStory')
             },
             {
               type: 'spike',
-              title: '',
+              title: 'Research state white goods rules and taxes',
               role: 'Business Analyst',
               action: 'research the state specific business rules for handleing white goods taxes',
               benefit: 'our customers are charged appropriately for the items they purchase',
@@ -77,7 +77,7 @@ angular.module('TackingStory')
             },
             {
               type: 'spike',
-              title: '',
+              title: 'Setup mid sized server for devs',
               role: 'Server Engineer',
               action: 'provision and configure a medium sized server',
               benefit: 'the bank web dev team can test code changes',
@@ -90,7 +90,7 @@ angular.module('TackingStory')
           stories: [
             {
               type: 'user',
-              title: '',
+              title: 'Register for online account',
               role: 'Personal Checking Account Holder',
               action: 'register for an online banking account',
               benefit: 'I can access my account details online',
@@ -98,7 +98,7 @@ angular.module('TackingStory')
             },
             {
               type: 'spike',
-              title: '',
+              title: 'Setup test server',
               role: 'Server Engineer',
               action: 'provision and configure a medium sized server',
               benefit: 'the bank web dev team can test code changes',
