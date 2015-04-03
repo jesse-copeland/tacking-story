@@ -101,6 +101,7 @@ textarea.squared-input, input[type="text"].squared-input, input[type="button"].s
   white-space: nowrap; }
 
 .flip-container, .front, .back {
+  width: 387px;
   height: 175px; }
 
 .flip-container {

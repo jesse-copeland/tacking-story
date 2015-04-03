@@ -9,7 +9,7 @@
               <div class="flip-container card">
                 <div class="flipper">
                   <div class="front">
-                    <div class="corner-ribbon bottom right flip-trigger">
+                    <div class="corner-ribbon bottom right flip-trigger" ng-click="flipCard($event)">
                       <i class="glyphicon glyphicon-retweet ribbon-icon"></i>
                     </div>
                     <i class="glyphicon glyphicon-pushpin pull-right drag-handle"></i>
@@ -19,7 +19,7 @@
                     </p>
                   </div>
                   <div class="back">
-                    <div class="corner-ribbon bottom left flip-trigger">
+                    <div class="corner-ribbon bottom left flip-trigger" ng-click="flipCard($event)">
                       <i class="glyphicon glyphicon-retweet ribbon-icon"></i>
                     </div>
                     <h3 class="truncate">{{story.title}}</h3>
